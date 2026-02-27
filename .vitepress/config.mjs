@@ -90,6 +90,7 @@ export default defineConfig({
             { text: 'Tips & Tricks', link: '/reference/tips' },
             { text: 'Aspirations', link: '/reference/aspirations' },
             { text: 'Project Ideas', link: '/reference/project-ideas' },
+            { text: 'Credits', link: '/reference/credits' },
           ]
         },
       ],
