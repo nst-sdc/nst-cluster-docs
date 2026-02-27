@@ -2,39 +2,45 @@
 
 The NST Compute Cluster was built from scratch during December 2025 — January 2026 by the founding team at Newton School of Technology, Ajeenkya DY Patil University.
 
-## Faculty
-
-### Krushn Dayshmookh
-Instructor, Full Stack Development. Led the cluster design, setup, and documentation effort.
-
-[GitHub](https://github.com/krushndayshmookh) · [LinkedIn](https://linkedin.com/in/krushndayshmookh) · [Website](https://krushndayshmookh.com)
-
-### Mayuri Wasu
-Faculty, Newton School of Technology.
-
-<!-- [LinkedIn](https://linkedin.com/in/) -->
-
-### Rahul Rajeevan
-Faculty, Newton School of Technology.
-
-<!-- [LinkedIn](https://linkedin.com/in/) -->
-
 ## Students
 
 ### Ananya Sharma
+
 Part of the founding team that built and configured the cluster infrastructure.
 
 <!-- [GitHub](https://github.com/) · [LinkedIn](https://linkedin.com/in/) -->
 
 ### Aditya Bijalwan
+
 Part of the founding team that built and configured the cluster infrastructure.
 
 <!-- [GitHub](https://github.com/) · [LinkedIn](https://linkedin.com/in/) -->
 
 ### Yashveer Singh
+
 Part of the founding team that built and configured the cluster infrastructure.
 
 <!-- [GitHub](https://github.com/) · [LinkedIn](https://linkedin.com/in/) -->
+
+## Faculty
+
+### Krushn Dayshmookh
+
+Instructor, Full Stack Development. Led the cluster design, setup, and documentation effort.
+
+[GitHub](https://github.com/krushndayshmookh) · [LinkedIn](https://linkedin.com/in/krushndayshmookh) · [Website](https://dayshmookh.com)
+
+### Mayuri Wasu
+
+Faculty, Newton School of Technology.
+
+<!-- [LinkedIn](https://linkedin.com/in/) -->
+
+### Rahul Rajeevan
+
+Faculty, Newton School of Technology.
+
+<!-- [LinkedIn](https://linkedin.com/in/) -->
 
 ---
 
