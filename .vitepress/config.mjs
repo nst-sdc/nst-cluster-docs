@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'NST Compute Cluster',
   description: 'Documentation for the Newton School of Technology Compute Cluster',
+  base: process.env.VITEPRESS_BASE || '/',
   
   themeConfig: {
     nav: [

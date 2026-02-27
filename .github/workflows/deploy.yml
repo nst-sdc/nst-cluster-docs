@@ -25,6 +25,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run docs:build
+        env:
+          VITEPRESS_BASE: /nst-cluster-docs/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .vitepress/dist
