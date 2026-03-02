@@ -11,6 +11,7 @@ The cluster runs several platform services for students and faculty. Each servic
 | Overleaf | [overleaf.nstsdc.org](https://overleaf.nstsdc.org) | Collaborative LaTeX editor |
 | Rancher | [rancher.nstsdc.org](https://rancher.nstsdc.org) | Cluster management dashboard |
 | Container Registry | `nst-n1:30500` | Private Docker image registry |
+| Student Sandbox | [sandbox.nstsdc.org](https://sandbox.nstsdc.org) | Isolated SSH containers for web deployment |
 
 ## Student applications
 
