@@ -10,13 +10,27 @@ A self-service cloud platform that gives students isolated Linux containers on t
 
 ### How it works
 
-```
-Student laptop → nst-sandbox CLI → API (sandbox.nstsdc.org)
-                                      ↓
-                                 K8s provisions pod + PVC + services + ingress
-                                      ↓
-SSH:  nst-sandbox ssh <name> → cloudflared tunnel → SSH Bastion → Student Pod
-HTTP: <name>.nstsdc.org → Cloudflare tunnel → Traefik Ingress → Student Pod :80
+```mermaid
+graph TD
+    A[Student laptop] --> B[nst-sandbox CLI]
+    B --> C[API<br/>sandbox.nstsdc.org]
+    C --> D[K8s provisions<br/>pod + PVC + services + ingress]
+    
+    D -.-> E[Access Methods]
+    
+    E --> F[SSH Access]
+    F --> G[cloudflared tunnel]
+    G --> H[SSH Bastion]
+    H --> I[Student Pod:22]
+    
+    E --> J[HTTP Access]
+    J --> K[Cloudflare tunnel]
+    K --> L[Traefik Ingress]
+    L --> M[Student Pod:80]
+    
+    style E fill:#f5f5f5,stroke:#999,stroke-dasharray: 5 5
+    style F fill:#e3f2fd
+    style J fill:#fff3e0
 ```
 
 Each instance is an isolated Linux container. Students pick from available images:

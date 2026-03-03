@@ -1,9 +1,15 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: 'NST Compute Cluster',
   description: 'Documentation for the Newton School of Technology Compute Cluster',
   base: process.env.VITEPRESS_BASE || '/',
+  
+  mermaid: {},
+  mermaidPlugin: {
+    class: 'mermaid'
+  },
   
   themeConfig: {
     nav: [
@@ -110,4 +116,5 @@ export default defineConfig({
       provider: 'local'
     }
   }
-})
+}
+))
