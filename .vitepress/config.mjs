@@ -68,6 +68,7 @@ export default defineConfig({
             { text: 'JupyterHub', link: '/services/jupyterhub' },
             { text: 'Overleaf', link: '/services/overleaf' },
             { text: 'Container Registry', link: '/services/registry' },
+            { text: 'Student Sandbox', link: '/services/sandbox' },
           ]
         },
         {
