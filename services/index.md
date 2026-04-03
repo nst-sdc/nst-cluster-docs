@@ -7,11 +7,14 @@ The cluster runs several platform services for students and faculty. Each servic
 | Service | URL | Purpose |
 |---|---|---|
 | NST Init | [init.nstsdc.org](https://init.nstsdc.org) | Self-service app deployment portal |
-| JupyterHub | [notebooks.nstsdc.org](https://notebooks.nstsdc.org) | Python/data science notebook environment |
+| JupyterHub | [lab.nstsdc.org](https://lab.nstsdc.org) | Python/data science notebook environment |
 | Overleaf | [overleaf.nstsdc.org](https://overleaf.nstsdc.org) | Collaborative LaTeX editor |
 | Rancher | [rancher.nstsdc.org](https://rancher.nstsdc.org) | Cluster management dashboard |
 | Container Registry | `nst-n1:30500` | Private Docker image registry |
 | Student Sandbox | [sandbox.nstsdc.org](https://sandbox.nstsdc.org) | Isolated SSH containers for web deployment |
+| N8N | [n8n.nstsdc.org](https://n8n.nstsdc.org) | Workflow Automation  |
+| Open WebUI | [ai.nstsdc.org](https://ai.nstsdc.org) | On-premise AI Model  |
+
 
 ## Student applications
 
